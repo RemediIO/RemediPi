@@ -52,7 +52,7 @@ Create HTTP Tunnel for Web Traffic
 ```
 [Desktop Entry]
 Type=Application
-Exec=mate-terminal -e "bash -c 'cd /home/remedi-admin/';'./ngrok http --hostname=pi.remedi.io 8080\n';'exec /bin/bash'"
+Exec=mate-terminal -e "bash -c 'cd /home/remedi-admin/';'./ngrok http --hostname=YOUR_HOST 8080\n';'exec /bin/bash'"
 Hidden=false
 X-MATE-Autostart-enabled=true
 Name[en_US]=Start ngrok http
